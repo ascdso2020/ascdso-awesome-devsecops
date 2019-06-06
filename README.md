@@ -43,8 +43,11 @@ We've been working across the industry to learn more about the different types o
 ## Guidelines
 While we're not into the paper-way of doing things, sharing sound advice and good recommendations can make software stronger.  We aim to make these guidelines better through code.
 
+* [Introduction to DevSecOps - DZone Refcard](https://dzone.com/refcardz/introduction-to-devsecops)
 * [Security Champions Playbook](https://github.com/c0rdis/security-champions-playbook)
 * [Security Guide for Web Developers](https://github.com/FallibleInc/security-guide-for-developers)
+* [A practical guide to build DAST with OWASP Zap](https://github.com/Soluto/owasp-zap-glue-ci-images)
+* [Introduction to security testing and tools](https://www.omerlh.info/2018/10/04/write-good-code-with-security-tests/)
 
 
 ## Presentations
@@ -54,6 +57,7 @@ Many talks are now targeting the change of adding Security into the DevOps envir
 * [Mozilla's Test Driven Security in Continuous Integration](https://www.youtube.com/watch?v=e2axToBYD68)
 * [Security DevOps - staying secure in agile projects](https://christian-schneider.net/slides/OWASP-AppSecEU-2015_SecDevOps.pdf)
 * [Veracode's Defending the Cloud from a Full Stack Hack](https://www.rsaconference.com/writable/presentations/file_upload/csv-w03-_defending-the-cloud-from-the-full-stack-hack.pdf)
+* [Put Your Robots to Work: Security Automation at Twitter](https://vimeo.com/54250716)
 
 
 ## Initiatives
@@ -71,6 +75,7 @@ We've discovered a treasure trove of mailing lists and newsletters where DevSecO
 
 * [Ruby Weekly](http://rubyweekly.com)
 * [Security Newsletter](https://securitynewsletter.co/)
+* [SRE Weekly](https://sreweekly.com/)
 
 ## Wardley Maps for Security
 One way for people to continue to evolve their capabilities and share common understanding is through the development of Wardley Maps.  We're collecting this information and providing some good examples here.
@@ -144,7 +149,6 @@ A small collection of DevOps and Security podcasts.
 * [The Secure Developer](http://www.heavybit.com/library/podcasts/the-secure-developer/)
 * [Trusted Sec Podcast](https://www.trustedsec.com/podcast/)
 
-
 ## Books
 Books focussed around DevSecOps, bringing the security focus up front.
 
@@ -173,6 +177,7 @@ Automation platforms have an advantage of providing for scripted remediation whe
 This list of tools provide the capabilities necessary for finding security anomalies and identifying rules that should be automated and extended to support scale demands.
 
 * [GRR](https://github.com/google/grr)
+* [kube-hunter](https://github.com/aquasecurity/kube-hunter)
 * [mig](https://github.com/mozilla/mig)
 * [Mirador](http://fathom.info/mirador/)
 * [moloch](https://github.com/aol/moloch)
@@ -188,19 +193,24 @@ Testing is an essential element of a DevSecOps program because it helps to prepa
 * [BDD Security](https://www.continuumsecurity.net/bdd-security/)
 * [Brakeman](http://brakemanscanner.org)
 * [Chef Inspec](https://github.com/chef/inspec)
+* [Contrast Security](https://www.contrastsecurity.com)
 * [Cohesion](https://secapps.com/cohesion)
 * [David](https://david-dm.org/)
 * [Gauntlt](http://gauntlt.org/)
 * [Hakiri](https://hakiri.io)
+* [HusckyCI](https://github.com/globocom/huskyci)
 * [Infer](http://fbinfer.com/)
 * [IronWASP](https://ironwasp.org/)
+* [kube-bench](https://github.com/aquasecurity/kube-bench)
 * [Lynis](https://cisofy.com/lynis/)
+* [microscanner](https://github.com/aquasecurity/microscanner)
 * [Node Security Platform](https://nodesecurity.io/)
 * [npm-check](https://www.npmjs.com/package/npm-check)
 * [npm-outdated](https://docs.npmjs.com/cli/outdated)
 * [OSS Fuzz](https://github.com/google/oss-fuzz)
 * [OWASP OWTF](https://www.owasp.org/index.php/OWASP_OWTF)
 * [OWASP ZAP](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project)
+* [OWASP ZAP Node API](https://github.com/zaproxy/zap-api-nodejs)
 * [Progpilot](https://github.com/designsecurity/progpilot)
 * [PureSec (Serverless Security)](https://www.puresec.io/)
 * [RetireJS](https://github.com/RetireJS/retire.js)
@@ -243,11 +253,13 @@ DevSecOps requires a common attack modeling capability that can be done at speed
 To support security as code, sensitive credentials and secrets need to be managed, security, maintained and rotated using automation.  The projects below provide DevOps teams with some good options for securing sensitive details used in building and deploying full stack software deployments.
 
 * [BlackBox](https://github.com/StackExchange/blackbox)
+* [CredStash](https://github.com/fugue/credstash)
 * [Git Secrets](https://github.com/awslabs/git-secrets)
 * [Keybase](https://keybase.io)
 * [Sops](https://github.com/mozilla/sops)
 * [Transcrypt](https://github.com/elasticdog/transcrypt)
 * [Vault](https://www.hashicorp.com/blog/vault.html)
+
 
 ## Red Team
 These are tools that we find helpful during Red Team and War Game exercises.  The projects in this section help with reconnaissance, exploit development, and other activities common within the Kill Chain.
@@ -261,6 +273,7 @@ Making DevSecOps discoveries is already hard enough with all the APIs and Comman
 
 * [Gephi](https://gephi.org)
 * [ShadowBuster](https://github.com/indeedops/ShadowBuster)
+* [Wazuh](https://wazuh.com/)
 
 ## Sharing
 A collection of tools to help with sharing knowledge and telling the story.
@@ -270,11 +283,10 @@ A collection of tools to help with sharing knowledge and telling the story.
 
 
 ## ChatOps
-One of the greatest changes you can make in your organization is boundaryless communications.  Setting up ChatOps can enable everyone to come together and solve problems.  
+One of the greatest changes you can make in your organization is boundaryless communications.  Setting up ChatOps can enable everyone to come together and solve problems.
 
 * [Gitter](https://gitter.im)
 * [HipChat](https://hipchat.com)
+* [MatterMost](https://mattermost.com/)
 * [Riot](https://riot.im/)
 * [Slack](https://slack.com)
-
-
