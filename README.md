@@ -48,6 +48,7 @@ While we're not into the paper-way of doing things, sharing sound advice and goo
 * [Security Guide for Web Developers](https://github.com/FallibleInc/security-guide-for-developers)
 * [A practical guide to build DAST with OWASP Zap](https://github.com/Soluto/owasp-zap-glue-ci-images)
 * [Introduction to security testing and tools](https://www.omerlh.info/2018/10/04/write-good-code-with-security-tests/)
+* [DevSecOps Hub](https://snyk.io/devsecops/)
 
 
 ## Presentations
@@ -58,13 +59,14 @@ Many talks are now targeting the change of adding Security into the DevOps envir
 * [Security DevOps - staying secure in agile projects](https://christian-schneider.net/slides/OWASP-AppSecEU-2015_SecDevOps.pdf)
 * [Veracode's Defending the Cloud from a Full Stack Hack](https://www.rsaconference.com/writable/presentations/file_upload/csv-w03-_defending-the-cloud-from-the-full-stack-hack.pdf)
 * [Put Your Robots to Work: Security Automation at Twitter](https://vimeo.com/54250716)
+* [The Three Faces of DevSecOps](https://www.infoq.com/presentations/devsecops-2019/)
 
 
 ## Initiatives
 There are a variety of initiatives underway to migrate security and compliance into DevOps.  We've included links for active projects here:
 
 * [AWS Labs](https://github.com/awslabs)
-* [DevOps Audit Defense Toolkit](https://plus.google.com/communities/103372669680429508474)
+* [DevOps and Audit Resources](https://itsanicelife.com/2017/03/13/devops-and-audit-resources/)
 * [DevSecOps](http://devsecops.org)
 * [OpenDevSecOps](https://opendevsecops.org)
 * [Rugged DevOps](http://www.ruggedsoftware.org)
@@ -73,6 +75,8 @@ There are a variety of initiatives underway to migrate security and compliance i
 ## Keeping Informed
 We've discovered a treasure trove of mailing lists and newsletters where DevSecOps like us are sharing their skills and insights.  
 
+* [AWS Security](https://aws.amazon.com/security/)
+* [Azure Security](https://azure.microsoft.com/en-us/overview/security/)
 * [Ruby Weekly](http://rubyweekly.com)
 * [Security Newsletter](https://securitynewsletter.co/)
 * [SRE Weekly](https://sreweekly.com/)
@@ -109,6 +113,7 @@ It's important to build up knowledge by learning how to break applications left 
 * [Metasploitable](https://community.rapid7.com/docs/DOC-1875) (Linux)
 * [Mutillidae](http://www.irongeek.com/i.php?page=mutillidae/mutillidae-deliberately-vulnerable-php-owasp-top-10) (PHP)
 * [NodeGoat](https://github.com/owasp/nodegoat) (Node)
+* [OWASP Damn Vulnerable Serverless Application (DVSA)](https://github.com/owasp/dvsa) (AWS Serverless)
 * [OWASP Juice Shop](https://github.com/OWASP/glue) (NodeJS/Angular)
 * [RailsGoat](https://github.com/OWASP/railsgoat) (Rails)
 * [WebGoat](https://github.com/WebGoat/WebGoat) (Web App)
@@ -119,6 +124,7 @@ It's important to build up knowledge by learning how to break applications left 
 ## Conferences
 A body of knowledge for combining DevOps and Security has been delivered via conferences and meetups.  This is a short list of the venues that have dedicated a portion of their agenda to it.
 
+* [AWS re:Inforce](https://reinforce.awsevents.com/)
 * [AWS re:Invent](https://reinvent.awsevents.com)
 * [DevSecCon](http://devseccon.com)
 * [DevOps Connect](http://www.devopsconnect.com/)
@@ -156,6 +162,7 @@ Books focussed around DevSecOps, bringing the security focus up front.
 * [Docker Securitiy - Quick Reference](https://binarymist.io/publication/docker-security/)
 * [Holistic Info-Sec for Web Developers](https://leanpub.com/b/holisticinfosecforwebdevelopers)
 * [Securing DevOps](https://securing-devops.com/book)
+* [The DevOps Handbook (Section VI)](https://www.oreilly.com/library/view/the-devops-handbook/9781457191381/)
 
 # Tools
 This collection of tools are useful in establishing a DevSecOps platform.  We have divided the tools into several categories that help with the different divisions of DevSecOps.
@@ -172,6 +179,7 @@ Automation platforms have an advantage of providing for scripted remediation whe
 * [Demisto](https://www.demisto.com/community/)
 * [OWASP Glue](https://github.com/OWASP/glue)
 * [StackStorm](https://github.com/StackStorm/st2)
+* [Insider CLI](https://github.com/insidersec/insider)
 
 ## Hunting
 This list of tools provide the capabilities necessary for finding security anomalies and identifying rules that should be automated and extended to support scale demands.
@@ -190,12 +198,13 @@ This list of tools provide the capabilities necessary for finding security anoma
 ## Testing
 Testing is an essential element of a DevSecOps program because it helps to prepare teams for Rugged operations and to determine security defects before they can be exploited.
 
-* [BDD Security](https://www.continuumsecurity.net/bdd-security/)
 * [Brakeman](http://brakemanscanner.org)
+* [Checkov](https://github.com/bridgecrewio/checkov/)
 * [Chef Inspec](https://github.com/chef/inspec)
 * [Contrast Security](https://www.contrastsecurity.com)
 * [Cohesion](https://secapps.com/cohesion)
 * [David](https://david-dm.org/)
+* [Deepfence ThreatMapper](https://github.com/deepfence/ThreatMapper)
 * [Gauntlt](http://gauntlt.org/)
 * [Hakiri](https://hakiri.io)
 * [HusckyCI](https://github.com/globocom/huskyci)
@@ -215,6 +224,7 @@ Testing is an essential element of a DevSecOps program because it helps to prepa
 * [PureSec (Serverless Security)](https://www.puresec.io/)
 * [RetireJS](https://github.com/RetireJS/retire.js)
 * [RIPS](http://rips-scanner.sourceforge.net/)
+* [ShiftLeft Scan](https://slscan.io)
 * [Snyk](https://snyk.io)
 * [SourceClear](https://www.sourceclear.com)
 
@@ -253,6 +263,7 @@ DevSecOps requires a common attack modeling capability that can be done at speed
 To support security as code, sensitive credentials and secrets need to be managed, security, maintained and rotated using automation.  The projects below provide DevOps teams with some good options for securing sensitive details used in building and deploying full stack software deployments.
 
 * [BlackBox](https://github.com/StackExchange/blackbox)
+* [Conjur](https://github.com/cyberark/conjur)
 * [CredStash](https://github.com/fugue/credstash)
 * [Git Secrets](https://github.com/awslabs/git-secrets)
 * [Keybase](https://keybase.io)
